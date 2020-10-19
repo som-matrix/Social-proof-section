@@ -1,0 +1,220 @@
+/*Global Declarations*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:inherit;
+}
+
+html{
+    font-size:62.5%;
+}
+
+body{
+    box-sizing: border-box;
+    font-size:1.5rem;
+    font-family: 'Spartan', sans-serif;
+    font-weight:400;
+    color:#000;
+}
+
+.main-content{
+    height:100vh;
+    background-image: url(./images/bg-pattern-top-desktop.svg),
+                      url(./images/bg-pattern-bottom-desktop.svg);
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    
+}
+.primary{
+    position:absolute;
+    top:39%;
+    left:36%;
+    transform:translate(-50% , -50%);
+    width: 50%;
+
+}
+/*Primary Typography*/
+.primary__heading{
+    width:55%;
+}
+.primary__heading--main{
+    display:block;
+    font-size:4rem;
+    font-weight:700;
+    color: hsl(300, 43%, 22%);
+    letter-spacing: .5rem;
+    margin-bottom: 2rem;
+}
+
+.primary__heading--sub{
+    display:block;
+    font-size:1.3rem;
+    font-weight:400;
+    letter-spacing: .2rem;
+    color:hsl(303, 10%, 53%);
+    line-height:1.4;
+}
+
+/*Rating cards Section*/
+.ratings{
+    position:absolute;
+    top:40%;
+    right:7rem;
+    transform: translate(0% ,-50%);
+}
+.rating__card1{
+    background-color: hsl(300, 24%, 96%);
+    box-shadow: 1rem 1.5rem 2rem rgba(0, 0, 0,.5);
+    border-radius: .5rem;
+    margin:0 4rem 2.5rem 0;
+    display: flex;
+    padding: 2rem 3rem;
+    transition: all .4s;
+    
+}
+.rating__card1:hover{
+    transform: scale(1.2);
+}
+.rating__card--secondary{
+    font-size:1.3rem;
+    font-weight:700;
+    color: hsl(300, 43%, 22%);
+    letter-spacing: .2rem;
+}
+.rating__card2{
+    background-color: hsl(300, 24%, 96%);
+    box-shadow: 1rem 1.5rem 2rem rgba(0, 0, 0,.5);
+    border-radius: .5rem;
+    margin: 0 2rem 2.5rem 4rem;
+    display: flex;
+    padding: 2rem 3rem;
+    transition: all .4s;
+    
+}
+.rating__card2:hover{
+    transform: scale(1.2);
+}
+.rating__card3{
+    background-color: hsl(300, 24%, 96%);
+    box-shadow: 1rem 1.5rem 2rem rgba(0, 0, 0,.5);
+    border-radius: .5rem;
+    display: flex;
+    padding: 2rem 3rem;
+    margin: 0 0 0 10rem;
+    transition: all .4s;
+}
+.rating__card3:hover{
+    transform: scale(1.2);
+}
+.rating__stars{
+    padding: 0 1.5rem;
+}   
+
+/*User Reviews Cards*/
+.users{
+    position:absolute;
+    top:80%;
+    left:50%;
+    transform: translate(-50% , -50%);
+    width:85%;
+    height:50vh;
+    display:flex;
+    
+}
+.user-review1{
+    background-color: hsl(300, 43%, 22%);
+    height:20rem;
+    width:65%;
+    margin: 2rem  4rem 0 0;
+    border-radius: .8rem;
+    box-shadow: 0 2rem 2.5rem rgba(0, 0, 0,.5);
+    transition: all .4s;
+
+}
+.user-review1:hover{
+    transform: scale(1.2);
+}
+.user-review2{
+    background-color: hsl(300, 43%, 22%);
+    height:20rem;
+    width:65%;
+    margin: 4rem 4rem 0 0;
+    border-radius: .8rem;
+    box-shadow: 0 2rem 2.5rem rgba(0, 0, 0,.5);
+    transition: all .4s;
+}
+.user-review2:hover{
+    transform: scale(1.2);
+}
+.user-review3{
+    background-color: hsl(300, 43%, 22%);
+    height:20rem;
+    width:65%;
+    border-radius: .8rem;
+    box-shadow: 0 2rem 2.5rem rgba(0, 0, 0,.5);
+    margin: 6rem 0 0 0;
+    transition: all .4s;
+}
+.user-review3:hover{
+    transform: scale(1.2);
+}
+.user-image{
+    overflow: hidden;
+    margin: 2rem 0 0 2.5rem;
+    height:5rem;
+    width:5rem;
+    border-radius: 50%;
+}
+.tertiary{
+  float:right;
+  margin: 2.5rem 12rem 0 2.5rem;
+}
+.tertiary__heading{
+  width:50%;
+}
+.tertiary__heading--main{
+    display:block;
+    font-size:1.3rem;
+    font-weight:700;
+    color:hsl(303, 10%, 53%);
+    margin-bottom: 1.5rem;
+    letter-spacing: .2rem;
+
+}
+.tertiary__heading--sub{
+   display:block;
+   font-size:1.3rem;
+   font-weight:700;
+   color: hsl(333, 80%, 67%);
+   letter-spacing: .2rem;
+}
+.user__review{
+   
+    padding: 0rem 2rem;
+    margin-top:2rem;
+    
+    
+}
+.user__review1{
+    color: hsl(300, 24%, 96%);
+    font-size:1.2rem;
+    font-weight:500;
+    word-spacing:.2rem;
+    line-height: 1.7;
+}
+.user__review2{
+    color: hsl(300, 24%, 96%);
+    font-size:1.2rem;
+    font-weight:500;
+    word-spacing: .2rem;
+    line-height:1.7;
+}
+.user__review3{
+    color: hsl(300, 24%, 96%);
+    font-size:1.2rem;
+    font-weight:500;
+    word-spacing: .2rem;
+    line-height:1.7;
+}
